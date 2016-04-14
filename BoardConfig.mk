@@ -32,8 +32,8 @@ TARGET_KERNEL_CONFIG := cyanogenmod_vs985_defconfig
 TARGET_REQUIRES_BUMP := true
 
 # Kernel Toolchain
-KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-eabi-4.9-uber/bin
-KERNEL_TOOLCHAIN_PREFIX := arm-eabi-
+KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-linux-androideabi-4.9-uber/bin
+KERNEL_TOOLCHAIN_PREFIX := arm-linux-androideabi-
 # Rom Toolchain
 TARGET_GCC_VERSION_EXP := 4.9-uber
 # Optimizations
