@@ -1,11 +1,11 @@
 [
   {
-    "repository": "Tesla-M-Devices/android_device_lge_g3-common",
+    "repository": "TipsyOs-devices/device_lge_g3-common",
     "target_path": "device/lge/g3-common",
     "branch": "n7.1"
   },
   {
-    "repository": "CyanogenMod/android_kernel_lge_g3",
+    "repository": "LineageOS/android_kernel_lge_g3",
     "target_path": "kernel/lge/g3",
     "branch": "cm-14.1"
   },
